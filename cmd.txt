@@ -1,0 +1,3 @@
+
+
+npm run ng serve brain-search -- --ssl=true --proxyConfig=./projects/brain-search/src/proxy.conf.json

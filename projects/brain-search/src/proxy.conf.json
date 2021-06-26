@@ -1,0 +1,31 @@
+{
+    "/api": {
+      "target": "https://find-q.siemens.com:444",
+      "secure": false,
+      "changeOrigin": true
+    },
+    
+    "/xdownload": {
+        "target": "https://find-q.siemens.com:444",
+        "secure": false,
+        "changeOrigin": true
+    },
+    
+    "/saml/redirect": {
+        "target": "https://find-q.siemens.com:444",
+        "secure": false,
+        "changeOrigin": true
+    },
+
+    "/oauth/redirect": {
+        "target": "https://find-q.siemens.com:444",
+        "secure": false,
+        "changeOrigin": true
+    },
+    
+    "/auth/redirect": {
+        "target": "https://find-q.siemens.com:444",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
