@@ -17,8 +17,8 @@
     "buildhellosearch": "ng build hello-search --prod",
     "buildvanilla": "ng build vanilla-search --prod",
     "buildpepper": "ng build pepper --prod",
-    "buildbrain": "ng build brain --prod",
-    "buildall": "npm run buildcore && npm run buildhellosearch && npm run buildcomponents && npm run buildanalytics && npm run buildvanilla && npm run buildpepper",
+    "buildbrain": "ng build brain-search --prod",
+    "buildall": "npm run buildcore && npm run buildhellosearch && npm run buildcomponents && npm run buildanalytics && npm run buildvanilla && npm run buildpepper && npm run buildbrain",
     "makedoc-core": "cd projects/core && node ../../scripts/makedoc.js -d ../../docs/core -p tsconfig.lib.json -n \"Core\"",
     "makedoc-components": "cd projects/components && node ../../scripts/makedoc.js -d ../../docs/components -p tsconfig.lib.json -n \"Components\"",
     "makedoc-analytics": "cd projects/analytics && node ../../scripts/makedoc.js -d ../../docs/analytics -p tsconfig.lib.json -n \"Analytics\""

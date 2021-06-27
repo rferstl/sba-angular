@@ -51,8 +51,8 @@ import { environment } from "../environments/environment";
 export const startConfig: StartConfig = {
     app: "BRAIN",
     production: environment.production,
-    url: "https://find-q.siemens.com:444",
-    autoOAuthProvider: "MyIdC2",
+    //url: "https://find-q.siemens.com:444",
+    autoOAuthProvider: "MyIdC1Sba",
     usePopupForLogin : false,
     auditEnabled: true
 };
