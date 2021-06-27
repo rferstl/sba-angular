@@ -5,10 +5,10 @@
 
             <!-- Application logo -->
             <a [routerLink]="['/home']" title="Home">
-                <img id="logo" src="assets/se-logo.png" alt="sinequa logo" *ngIf="!isDark() && ui.screenSizeIsGreater('md')">
-                <img id="logo" src="assets/se-logo.png" alt="sinequa logo" *ngIf="!isDark() && ui.screenSizeIsLessOrEqual('md')">
-                <img id="logo" src="assets/se-logo.png" alt="sinequa logo" *ngIf="isDark() && ui.screenSizeIsGreater('md')">
-                <img id="logo" src="assets/se-logo.png" alt="sinequa logo" *ngIf="isDark() && ui.screenSizeIsLessOrEqual('md')">
+                <img id="logo" src="assets/se-logo-light.png" alt="sinequa logo" *ngIf="!isDark() && ui.screenSizeIsGreater('md')">
+                <img id="logo" src="assets/se-logo-light.png" alt="sinequa logo" *ngIf="!isDark() && ui.screenSizeIsLessOrEqual('md')">
+                <img id="logo" src="assets/se-logo-dark.png" alt="sinequa logo" *ngIf="isDark() && ui.screenSizeIsGreater('md')">
+                <img id="logo" src="assets/se-logo-dark.png" alt="sinequa logo" *ngIf="isDark() && ui.screenSizeIsLessOrEqual('md')">
             </a>
 
             <!-- Button to toggle the visibility of facets on small screens -->
